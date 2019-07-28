@@ -7,7 +7,7 @@ client.on('ready', () => {
     console.log('Logged in as popchatbot!');
 });
 
-client.login(auth.token);
+client.login(process.env.BOT_TOKEN);
 
 const friv = new Discord.Attachment('https://cdn.discordapp.com/attachments/567392980525121565/601581914461175809/Screenshot_20190717-235040.jpg')
 const messy = new Discord.Attachment('https://i.imgur.com/fEKbH8i.gif')
