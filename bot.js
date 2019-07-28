@@ -30,7 +30,7 @@ client.on('message', msg => {
         msg.channel.send(jess);
     break; 
     default:
-        msg.reply('eat a dick');
+        msg.reply('eat a dick nikka, im working on this');
     break; 
         
   }
